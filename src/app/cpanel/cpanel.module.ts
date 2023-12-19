@@ -5,12 +5,18 @@ import { SharedcpanelModule } from '../sharedcpanel/sharedcpanel.module';
 
 import { CpanelComponent } from './cpanel.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { EventsComponent } from './events/events.component';
+import { WebsiteComponent } from './website/website.component';
+import { UsersComponent } from './users/users.component';
 
 
 @NgModule({
   declarations: [
     CpanelComponent,
-    DashboardComponent
+    DashboardComponent,
+    EventsComponent,
+    WebsiteComponent,
+    UsersComponent
   ],
   imports: [
     CommonModule,
