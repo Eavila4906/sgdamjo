@@ -31,11 +31,19 @@
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li><a routerLink="/" fragment="inicio">Inicio</a></li>
-                        <li><a routerLink="/" fragment="eventos">Eventos</a></li>
-                        <li><a href="#">Property Details</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#"><i class="fas fa-calendar"></i> Conoce nuestro proximo evento</a></li>
+                        <li><a class="anav" routerLink="/" fragment="inicio">Inicio</a></li>
+                        <li><a class="anav" routerLink="/" fragment="eventos">Eventos</a></li>
+                        <li><a class="anav" href="/">Contactos</a></li>
+                        <span class="promo">
+                            <li>
+                                <a href="/">
+                                    <span class="icon">
+                                        <i class="fas fa-calendar-day"></i>
+                                    </span> 
+                                    <b>Conoce nuestro proximo evento</b>
+                                </a>
+                            </li>
+                        </span>
                     </ul>
                     <a class='menu-trigger'>
                         <span>Menu</span>

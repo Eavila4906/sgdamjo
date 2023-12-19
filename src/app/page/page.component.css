@@ -1,14 +1,4 @@
-app-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000; /* Puedes ajustar el valor según sea necesario */
-    /* Otros estilos según tus preferencias */
-}
-
 @-webkit-keyframes bounce {
-
     0%,
     20%,
     53%,
@@ -4359,7 +4349,7 @@ body {
 }
 
 .header-area .main-nav .nav li:last-child a {
-    background-color: #1e1e1e;
+    background-color: #ec5d5d;
     color: #fff;
     font-size: 14px;
     font-weight: 400;
@@ -4368,8 +4358,8 @@ body {
     padding-left: 0px;
 }
 
-.header-area .main-nav .nav li:last-child a i {
-    background-color: #256df3;
+.icon {
+    background-color: #1247aa;
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -4388,7 +4378,7 @@ body {
     color: #fff;
 }
 
-.header-area .main-nav .nav li:hover a {
+.header-area .main-nav .nav li:hover .anav {
     color: #256df3;
 }
 
