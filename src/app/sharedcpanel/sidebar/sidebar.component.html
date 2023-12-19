@@ -1,1 +1,49 @@
-<p>sidebar works!</p>
+<nav id="sidebar" class="sidebar js-sidebar">
+    <div class="sidebar-content js-simplebar">
+        <a class="sidebar-brand no-underline" href="/cpanel">
+            <div style="margin-left: 20%;">
+            <!--<img src="{{base_url}}/app/Assets/Images/logo-white.png" height="80%" width="20%">-->
+            <h4 class="align-middle"> cPanel </h4>
+            </div>
+        </a>
+
+        <ul class="sidebar-nav">
+            <li class="sidebar-header">
+                Menú
+            </li>
+
+            <li id="dashboard-item" class="sidebar-item">
+                <a class="sidebar-link" href="/cpanel">
+                    <i class="fas fa-grip-horizontal"></i>
+                    <span class="align-middle">Principal</span>
+                </a>
+            </li>
+
+            <li id="documents-item" class="sidebar-item">
+                <a class="sidebar-link" href="/cpanel/eventos">
+                    <i class="fas fa-calendar-day"></i>
+                    <span class="align-middle">Eventos</span>
+                </a>
+            </li>
+
+            <li id="documents-item" class="sidebar-item">
+                <a class="sidebar-link" href="/cpanel/sitio_web">
+                    <i class="fas fa-globe"></i>
+                    <span class="align-middle">Sitio web</span>
+                </a>
+            </li>
+
+            <li class="sidebar-header">
+                Usuarios
+            </li>
+
+            <li id="users-item" class="sidebar-item">
+                <a class="sidebar-link" href="/cpanel/usuarios">
+                    <i class="fas fa-users"></i>
+                    <span class="align-middle">Usuarios</span>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</nav>

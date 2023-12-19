@@ -1,0 +1,23 @@
+.sidebar {
+    transition: left 250ms linear, width 250ms linear;
+}
+
+.sidebar-content {
+    background-color: rgb(17, 16, 51);
+}
+
+.sidebar-link {
+    background-color: rgb(17, 16, 51);
+}
+
+.sidebar-item.active .sidebar-link:hover,
+.sidebar-item.active>.sidebar-link {
+    background: linear-gradient(90deg, rgba(175, 59, 221, 0.1), rgba(162, 59, 221, 0.088) 50%, transparent);
+    border-left-color: #8700c5;
+    border-left-width: 6px;
+    color: #e9ecef
+}
+
+a.no-underline {
+    text-decoration: none;
+}
