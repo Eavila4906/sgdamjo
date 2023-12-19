@@ -1,0 +1,23 @@
+html,
+body,
+.intro {
+  height: 100%;
+}
+
+@media (min-width: 550px) and (max-width: 750px) {
+
+  html,
+  body,
+  .intro {
+    height: 550px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+
+  html,
+  body,
+  .intro {
+    height: 550px;
+  }
+}
